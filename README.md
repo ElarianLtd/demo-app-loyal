@@ -19,6 +19,7 @@
     - Metadata
     - Tags
     - Reminders
+    - Activity
 
 
 ### Usage
