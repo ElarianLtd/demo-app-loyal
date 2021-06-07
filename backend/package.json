@@ -1,17 +1,18 @@
 {
-  "name": "loyal",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "config": "^3.3.6",
-    "elarian": "^0.2.6",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0"
-  }
+    "name": "loyal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "config": "^3.3.6",
+        "elarian": "^0.2.6",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    }
 }

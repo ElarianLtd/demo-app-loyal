@@ -3,22 +3,22 @@
 
     "elarian": {
         "client": {
-            "appId": "loyal-demo",
-            "orgId": "og-oRA7GC",
-            "apiKey": "el_api_key_9b6a4279b4dfc1c4019aab082648d10bd44646be4d73a46c25dc76ea8d442b19"
+            "appId": "XXXXX",
+            "orgId": "el_og_XXXXXXX",
+            "apiKey": "el_api_key_XXXXXXXX"
         },
 
         "channel": {
-            "purseId": "prs-wLRbmO",
+            "purseId": "prs-XXXXX",
 
             "sms": {
                 "channel": "sms",
-                "number": "Maisha Loyal"
+                "number": "XXXXX"
             },
             
             "paybill": {
                 "channel": "cellular",
-                "number": "91222"
+                "number": "XXXXXX"
             }
         }
     }

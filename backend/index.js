@@ -99,14 +99,14 @@ const handleRemiderEvent = async (notification, user) => {
 };
 
 app.get('/', (req, res) => {
-  res.send('Hello Maisha Loyal!');
+  res.send('Hello Loyal!');
 });
 
 app.get('/user', async (req, res) => {
     const { token } = await elarian.generateAuthToken();
     res.send({
-        phone: '+254718769880',
-        name: 'Dr. Alice W. Kamau Otieno',
+        phone: '+2547xxxxxxxx',
+        name: 'Dr. Alice Wambui Kamau Otieno Wa Kamanda',
         credentials: {
             authToken: token,
             orgId: config.get('elarian.client.orgId'),

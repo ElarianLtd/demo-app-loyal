@@ -39,7 +39,7 @@ const App = () => {
     setJoined(true);
     user
       .updateActivity(
-        {channel: 'mobile', number: 'maisha-ios-app'},
+        {channel: 'mobile', number: 'ios-app'},
         {sessionId: 'ABC', key: 'join'},
       )
       .then(() => new Promise(resolve => setTimeout(resolve, 3000)))
@@ -53,7 +53,7 @@ const App = () => {
   const addPoints = async () => {
     user
       .updateActivity(
-        {channel: 'mobile', number: 'maisha-ios-app'},
+        {channel: 'mobile', number: 'ios-app'},
         {sessionId: 'ABC', key: 'points'},
       )
       .catch(console.error);
@@ -191,7 +191,7 @@ const App = () => {
           <Image
             style={styles.tinyLogo}
             source={{
-              uri: 'https://maishameds.org/wp-content/uploads/2016/06/White-1-200.png',
+              uri: 'https://africastalking.com/img/favicons/favicon-96x96.png',
             }}
             resizeMode="contain"
           />
