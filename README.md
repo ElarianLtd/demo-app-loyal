@@ -36,7 +36,7 @@ npm run android
 
 ## Need Help?
 
-If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](/issues).
+If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](https://github.com/ElarianLtd/demo-app-loyal/issues).
 
 If you have questions, comments, or need help with code, we're here to help:
 - on [Slack](https://elarianworkspace.slack.com/)
