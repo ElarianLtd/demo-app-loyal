@@ -44,10 +44,3 @@ If you have questions, comments, or need help with code, we're here to help:
 - by email at [info@elarian.com](mailto:info@elarian.com)
 
 [Sign up](https://dashboard.elarian.com) to get started with Elarian today.
-
-## Authors
-
-- [@aksalj](https://github.com/aksalj)
-- [@babatush](https://github.com/babatush)
-- [@davidmuchiri](https://github.com/davidmuchiri)
-- [@calvinkarundu](https://github.com/calvinkarundu)
