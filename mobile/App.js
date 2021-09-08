@@ -28,20 +28,14 @@ const App = () => {
     setJoined(false);
     setPoints(0);
     user
-      .updateActivity(
-        {channel: 'mobile', number: 'maisha-ios-app'},
-        {sessionId: 'ABC', key: 'reject'},
-      )
+      .updateActivity('maisha-ios-app', {sessionId: 'ABC', key: 'reject'})
       .catch(console.error);
   };
 
   const joinProgram = () => {
     setJoined(true);
     user
-      .updateActivity(
-        {channel: 'mobile', number: 'ios-app'},
-        {sessionId: 'ABC', key: 'join'},
-      )
+      .updateActivity('maisha-ios-app', {sessionId: 'ABC', key: 'join'})
       .then(() => new Promise(resolve => setTimeout(resolve, 3000)))
       .then(() => user.getMetadata())
       .then(userData => {
@@ -52,10 +46,7 @@ const App = () => {
 
   const addPoints = async () => {
     user
-      .updateActivity(
-        {channel: 'mobile', number: 'ios-app'},
-        {sessionId: 'ABC', key: 'points'},
-      )
+      .updateActivity('maisha-ios-app', {sessionId: 'ABC', key: 'points'})
       .catch(console.error);
   };
 
