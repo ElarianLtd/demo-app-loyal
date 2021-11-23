@@ -38,7 +38,7 @@ const handleActivityEvent = async (notification, user) => {
                 }, {
                     amount,
                     currencyCode: 'KES',
-                });
+                }, 'cash reward');
                 if (!['success', 'queued', 'pending_confirmation', 'pending_validation'].includes(res.status)) {
                     console.error(`Failed to stash payment: ${res.description}(${res.status})`);
                 }
@@ -73,7 +73,7 @@ const handleRemiderEvent = async (notification, user) => {
         }, {
             amount,
             currencyCode: 'KES',
-        });
+        }, 'cash reward');
         if (!['success', 'queued', 'pending_confirmation', 'pending_validation'].includes(res.status)) {
             console.error(`Failed to send payment: ${res.description}(${res.status})`);
         } else {
